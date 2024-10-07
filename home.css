@@ -7,22 +7,22 @@
 
 body {
     background-color: #20133F;
-    color: #EAD8B1;
+    color: #EAD8B1; 
 }
 
 /* Home Section */
 .home {
-    background: url(https://images.unsplash.com/photo-1512248607101-e26c16d28749?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center/cover;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
+    background: url(https://images.unsplash.com/photo-1512248607101-e26c16d28749?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center/cover; /*Backgrundsbild med centrering*/
+    height: 100vh; /* Full höjd av skärmen */
+    display: flex; 
+    justify-content: center; /*justify-content och align-items båda center får att innehållet i mitten av sektionen*/
     align-items: center;
     text-align: center;
-    position: relative;
+    position: relative; /*För overlay positionering nedan*/
 }
 
-.overlay {
-    position: absolute;
+.overlay { /*Har overlay för att kunna få bilden att passa in bättre*/
+    position: absolute; 
     top: 0;
     left: 0;
     width: 100%;
@@ -33,7 +33,6 @@ body {
 .homeContent {
     position: relative;
     max-width: 700px;
-    color: #EAD8B1;
 }
 
 h2 {
@@ -83,15 +82,15 @@ h3 {
 
 .aboutContent {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: space-around; /*Fördelar korten jämnt*/
+    flex-wrap: wrap; /*Radbrytning*/
     gap: 3rem;
 }
 
 .aboutCard {
-    flex: 1;
+    flex: 1; /*Alla tar upp lika mycket utrymme*/
     padding: 20px;
-    border-radius: 1rem;
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
     background-color: #131842;
 }
@@ -100,9 +99,11 @@ h3 {
 
 .reviewsQuickNavContainer {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr); 
     gap: 20px;
     padding: 3.5rem 1rem;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 .reviewCard {
@@ -145,6 +146,8 @@ button:hover {
     background-color: #2A0F30;
 }
 
+
+/*Media Query för mindre skärmar*/
 @media (max-width: 768px) {
     .aboutContent {
         flex-direction: column;

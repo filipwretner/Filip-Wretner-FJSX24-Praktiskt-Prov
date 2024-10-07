@@ -14,24 +14,29 @@
     
     <header></header>
 
+    <!-- Huvudinnehåll -->
     <main>
-        <section class="home">
-            <div class="overlay"></div>
+
+        <!-- Hemsektion -->
+        <section class="home" role="region" aria-labelledby="homeTitle">
+            <div class="overlay"></div> 
 
             <article class="homeContent">
-                <h2>Notbladet</h2>
+                <h2 id="homeTitle">Notbladet</h2>
 
                 <p>Sveriges mest inlevelsefulla musiksida.</p>
             </article>
 
         </section>
 
-        <section class="about">
+        <!-- Om oss-sektion -->
+        <section class="about" role="region" aria-labelledby="aboutTitle">
             <div class="aboutContainer">
 
-                <h3>Vad är Notbladet?</h3>
+                <h3 id="aboutTitle">Vad är Notbladet?</h3>
                 <p id="aboutIntro">Välkommen till Notbladet! På Notbladet brinner vi för att dela vår passion för musik med hela Sverige. Vi är ett gäng musikälskare med en stark kärlek för musikens kraft vilket vi vill förmedla i våra inlägg i form av recensioner och personliga artiklar om musikvärlden. Vi strävar efter att skapa en plats där musik får vara i fokus och alla får upptäcka nytt och gammalt tillsammans. </p>
 
+                <!-- Kort som visar kort info om sidan -->
                 <div class="aboutContent">
 
                     <article class="aboutCard">
@@ -48,11 +53,13 @@
             </div>
         </section>
 
-        <section class="reviewsQuickNav">
-            <h3>Senaste Recensioner</h3>
+        <!-- Snabbnavigering för senaste recensioner -->
+        <section class="reviewsQuickNav" role="region" aria-labelledby="reviewsTitle">
+            <h3 id="reviewsTitle">Senaste Recensioner</h3>
 
             <div class="reviewsQuickNavContainer">
 
+                <!-- Kort some visar de senaste recensionerna -->
                 <article class="reviewCard">
                     <h4>Dream Theater - Scenes From A Memory</h4>
                     <img src="sfam.avif" alt="Omslagsbild för Scenes From A Memory av Dream Theater">
