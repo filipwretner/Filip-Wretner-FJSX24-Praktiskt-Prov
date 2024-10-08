@@ -1,43 +1,6 @@
-/* Hero Section */
-.hero {
-    background: url(https://images.unsplash.com/photo-1512248607101-e26c16d28749?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center/cover; /*Backgrundsbild med centrering*/
-    height: 20vh; /* 20% av fönstret */
-    display: flex; 
-    justify-content: center; /*justify-content och align-items båda center får att innehållet i mitten av sektionen*/
-    align-items: center;
-    text-align: center;
-    position: relative; /*För overlay positionering nedan*/
-}
-
-.overlay { /*Har overlay för att kunna få bilden att passa in bättre*/
-    position: absolute; 
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(19, 24, 66, 0.5); /* Gör backgrundsbilden lite blåare för att matcha resten av sidan */
-}
-
-.heroContent {
-    position: relative;
-    max-width: 700px;
-}
-
-h2 {
-    font-size: 60px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 0.5rem;
-    line-height: 1.2;
-}
-
-.heroContent p{
-    font-size: 20px;
-    margin-bottom: 30px;
-}
-
 /* Main Content */
 .reviewsContainer {
+    padding: 2rem 1rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Fyller ut större skärmar men håller sig till 300px per reviewCard */
     gap: 1rem;
@@ -52,6 +15,8 @@ h2 {
     text-align: center;
     justify-content: space-between;
     height: 100%;
+    background-color: #131842;
+    border-radius: 10px;
 }
 
 .reviewCard img {
@@ -67,8 +32,15 @@ h2 {
     text-decoration: none;
 }
 
-a:hover {
-    color: #eead6c;
+.reviewCard a img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1.5px solid #EAD8B1;
+}
+
+.reviewCard h2 {
+    font-size: 1.3rem;
+    margin-top: 1rem;
 }
 
 /* Responsiv Design för mellanstora skärmar */

@@ -5,6 +5,10 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+main {
+    background-color: #20133F;
+}
+
 /* Hero Section */
 .hero {
     background: url(https://images.unsplash.com/photo-1512248607101-e26c16d28749?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center/cover; /*Backgrundsbild med centrering*/

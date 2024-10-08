@@ -1,8 +1,7 @@
 /* About Section */
 .about {
     padding: 3.5rem 1rem;
-    text-align: center;
-    background-color: #20133F;
+    text-align: center;    
 }
 
 .aboutContainer {
@@ -50,11 +49,6 @@ h2 {
 }
 
 /* Reviews QuickNav Section */
-
-.reviewsQuickNav {
-    background-color: #20133F;
-}
-
 .reviewsQuickNavContainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
