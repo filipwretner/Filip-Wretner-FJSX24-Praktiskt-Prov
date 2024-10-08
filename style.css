@@ -9,3 +9,71 @@ body {
     background-color: #20133F;
     color: #EAD8B1; 
 }
+
+/* Navbar */
+.header {
+    width: 100%;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;    
+}
+
+.navlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    margin-top: 1.5rem;
+}    
+
+.navlinks li {
+    margin: 0 1.5rem;
+}
+
+.navlinks li a {
+    text-decoration: none;
+    color: #EAD8B1;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.navlinks li a:hover {
+    color: #eead6c;
+    background-color: #131842;
+}
+
+.navIcon {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: auto;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 481px) {
+    .navText {
+        display: none;
+    }
+
+    .navIcon {
+        display: inline-block;
+    }
+
+    #iconHome {
+        font-size: 2rem;
+    }
+
+    #iconReviews {
+        margin-top: 12px;
+    }
+}
+
