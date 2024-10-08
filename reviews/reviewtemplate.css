@@ -3,7 +3,9 @@ main {
 }
 
 .reviewContainer {
-  padding: 4rem 2rem;  
+  padding: 4rem 2rem; 
+  max-width: 1200px; 
+  margin: 0 auto;
 }
 
 .reviewCard {
@@ -19,9 +21,9 @@ main {
     height: 100%;
 }
 
-h2 {
+.reviewCard h2 {
     font-size: clamp(1.6rem, 2vw, 2rem);
-    margin-bottom: 1rem;
+    margin: 1rem 1rem;
     min-height: 3rem;
     max-height: 3rem;
 }
@@ -32,6 +34,8 @@ h2 {
 }
 
 .reviewCard p {
-    font-size: clamp(1rem, 2vw, 1.2rem);
+    font-size: clamp(1.1rem, 2vw, 1.3rem);
+    line-height: 1.6;
+    letter-spacing: 1px;
     margin-top: 1rem;
 }
