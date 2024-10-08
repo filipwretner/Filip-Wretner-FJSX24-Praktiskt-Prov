@@ -40,6 +40,7 @@ h2 {
 .about {
     padding: 3.5rem 1rem;
     text-align: center;
+    background-color: #20133F;
 }
 
 .aboutContainer {
@@ -84,6 +85,10 @@ h3 {
 }
 
 /* Reviews QuickNav Section */
+
+.reviewsQuickNav {
+    background-color: #20133F;
+}
 
 .reviewsQuickNavContainer {
     display: grid;

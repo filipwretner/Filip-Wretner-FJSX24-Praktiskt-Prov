@@ -6,18 +6,19 @@
 }
 
 body {
-    background-color: #20133F;
+    background-color: #131842;
     color: #EAD8B1; 
 }
 
 /* Navbar */
 .header {
     width: 100%;
+    
 }
 
 .navbar {
     max-width: 1200px;
-    margin: 0 auto;    
+    margin: 0 auto;
 }
 
 .navlinks {
@@ -26,6 +27,7 @@ body {
     justify-content: center;
     list-style: none;
     margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }    
 
 .navlinks li {
