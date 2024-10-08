@@ -85,18 +85,23 @@ h2 {
 
 .reviewCard button {
     font-size: clamp(1.2rem, 2vwm 1.5rem);
-    padding: 10px 15px;
+    padding: 1rem;
     border: none;
     margin-top: 10px;
     cursor: pointer;
     border-radius: 5px;
     background-color: #20133F;
     color: #EAD8B1;
+    width: 80%;
 }
 
 button a {
     text-decoration: none;
     color: #EAD8B1;
+    font-size: 1rem;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    padding: 1rem;
 }
 
 button:hover {
