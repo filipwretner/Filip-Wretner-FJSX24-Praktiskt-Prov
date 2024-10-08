@@ -1,8 +1,9 @@
-* {
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;  
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #EAD8B1; 
 }
 
 main {
@@ -12,7 +13,7 @@ main {
 /* Hero Section */
 .hero {
     /* background: image() no-repeat center center/cover; Backgrundsbild med centrering */
-    background-image: url(images/tesseract.avif);
+    background-image: url(images/notbladetguitar.avif);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -40,7 +41,7 @@ main {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 60px;
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
@@ -48,24 +49,20 @@ h1 {
 }
 
 .heroContent p{
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 30px;
 }
 
-body {
-    background-color: #131842;
-    color: #EAD8B1; 
-}
 
 /* Navbar */
-.header {
+header, footer {
     width: 100%;
-    
+    background-color: #131842;
 }
 
 .navbar {
-    max-width: 1200px;
     margin: 0 auto;
+    border-top: 1px solid;
 }
 
 .navlinks {
@@ -87,6 +84,7 @@ body {
     font-weight: bold;
     padding: 10px 20px;
     border-radius: 5px;
+    font-size: clamp(1.1rem, 2vw, 1.3rem)
 }
 
 .navlinks li a:hover {

@@ -3,7 +3,7 @@
     padding: 2rem 1rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Fyller ut större skärmar men håller sig till 300px per reviewCard */
-    gap: 1rem;
+    gap: 1.5rem;
     background-color: #20133F;
 }
 
