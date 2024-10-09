@@ -87,7 +87,7 @@ h1 {
 }
 
 .navIcon {
-    display: none;
+    display: none; /* Döljer ikoner så att inte båda syns på större skärmar */
 }
 
 footer {
@@ -107,6 +107,7 @@ footer p {
         margin-top: 0.5rem;
     }
 
+    /* Byter text till ikoner på mindre skärmar */
     .navText {
         display: none;
     }
@@ -115,6 +116,7 @@ footer p {
         display: inline-block;
     }
 
+    /* Se till att ikonerna hamnar i linje med varandra och är i samma storlek */
     #iconHome {
         font-size: 2rem;
     }
