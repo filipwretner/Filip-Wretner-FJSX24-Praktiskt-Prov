@@ -31,6 +31,10 @@
     text-decoration: none;
 }
 
+.reviewCard a:hover {
+    color: #eead6c;
+}
+
 .reviewCard a img:hover {
     transform: scale(1.03);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
