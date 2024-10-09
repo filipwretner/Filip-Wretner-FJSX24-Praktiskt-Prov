@@ -17,7 +17,7 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 40vh; /* 40% av fönstret */
+    height: 45vh; /* 40% av fönstret */
     display: flex; 
     flex-direction: column;
     justify-content: center; /*justify-content och align-items båda center får att innehållet i mitten av sektionen*/
@@ -103,6 +103,10 @@ footer p {
 }
 
 @media (max-width: 481px) {
+    .navlinks {
+        margin-top: 0.5rem;
+    }
+
     .navText {
         display: none;
     }
